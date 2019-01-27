@@ -1,17 +1,17 @@
 <?php
 
-namespace KL;
+namespace cx2;
 
-use KL\CI;
+use cx2\Store;
 use pocketmine\Player;
 use pocketmine\Server;
 
-class colorUI
+class StoreUI
 {
   
   public $main;
 
-	public function __construct(CI $pg) {
+	public function __construct(Store $pg) {
         $this->main = $pg;
     }
 
